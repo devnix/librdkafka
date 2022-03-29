@@ -43,7 +43,7 @@ function install_source {
     local name=$1
     local destdir=$2
     local ver=1.2.12
-    local checksum="7afe6a366cc2cbe62d31912d50edca5c6488eaf6"
+    local checksum="91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9"
 
     echo "### Installing $name $ver from source to $destdir"
     if [[ ! -f Makefile ]]; then
